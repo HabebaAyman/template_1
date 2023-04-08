@@ -1,0 +1,61 @@
+/* 3.5 prices section */
+.pricing-plans {
+    overflow: hidden;
+ }
+ .pricing-item {
+    width: 30%;
+    float: left;
+    padding: 40px 15px;
+    border: 1px solid #a8a8a898;
+    text-align: center;
+ }
+ .pricing-item.mg {
+    margin: 0px 5%;
+ }
+ .pricing-item-text {
+    text-transform: uppercase;
+    font-size: 17px;
+    color: var(--graycolor);
+    transition:color 0.5s;
+ }
+ .pricing-item-circle {
+    width: 130px;
+    height: 130px;
+    padding: 25px 0px;
+    margin: 20px auto;
+    border: 2.5px solid  var(--maincolor);
+    border-radius: 50%;
+    transition: color 0.5s;
+ }
+ .pricing-item-circle .doller {
+    font-size: 50px;
+ }
+ .pricing-item-circle .month {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+ 
+ .pricing-list li {
+    color: var(--graycolor);
+    line-height: 2;
+ }
+ .pricing-item-button {
+    background: none;   
+    border: 2.5px solid  var(--maincolor);
+    display:block;
+    width: 150px;
+    padding: 10px;
+    margin: 15px auto 0px;
+    color: var(--maincolor);
+ }
+ .pricing-item-button:hover {
+    cursor: pointer;
+ }
+ .pricing-item:hover .pricing-item-circle {
+    color: var(--whitecolor);
+ }
+ .pricing-item:hover .pricing-item-text {
+    color: var(--maincolor);
+ }
+ 

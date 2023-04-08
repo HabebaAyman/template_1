@@ -1,0 +1,50 @@
+/* 3.8 blog section */
+.blog {
+    background-color: #f8f8f8;
+ }
+ .blog-content {
+    overflow: hidden;
+ 
+ }
+ .blog-item {
+    width: 30%;
+    float: left;
+    background-color: var(--whitecolor);
+ }
+ .blog-text {
+    padding: 15px;
+ }
+ .blog-item.mg {
+    margin: 0px 5%;
+ }
+ .blog-item img {
+    width: 100%;
+ }
+ .blog-list { 
+    margin-bottom: 15px;
+   
+ }
+ .blog-list li {
+    display: inline-block;
+    font-size: 14px;
+    color: #5e5c5c;
+    margin: 0px 4px;
+ }
+ .blog-list li .icon {
+    color: var(--maincolor);
+    font-size: 17px;
+ }
+ .blog-item h3 {
+    font-size: 19px;
+    margin-bottom: 15px;
+ }
+ .blog-item p {
+    color: var(--graycolor);
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+ }
+ .blog-item a {
+    color: var(--maincolor);
+ }
+ 
